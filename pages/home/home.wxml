@@ -1,0 +1,22 @@
+<view class="page">
+    <view class="page__bd">
+        <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    </view>
+    <swiper class="swiper"
+            indicator-dots="{{true}}"
+            indicator-color="white"
+            indicator-active-color="lightgray"
+            circular="{{true}}"
+            autoplay="{{true}}"
+            easing-function="easeInOutCubic">
+        <block wx:for="{{banners}}" wx:key="index">
+            <swiper-item bindtap="handleProductsItemTap">
+                <view class="swiper_item">
+                    <image src="{{item.url}}"></image>
+                </view>
+
+            </swiper-item>
+        </block>
+
+    </swiper>
+</view>
