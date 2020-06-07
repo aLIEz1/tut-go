@@ -1,7 +1,9 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/explore/explore",
+    "pages/profile/profile",
+    "pages/market/market",
+    "pages/home/home"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +12,32 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "./images/tabbar2/home.png",
+      "selectedIconPath": "./images/tabbar2/home_selected.png"
+    },
+      {
+        "pagePath": "pages/market/market",
+        "text": "饰品市场",
+        "iconPath": "./images/tabbar2/market.png",
+        "selectedIconPath": "./images/tabbar2/market_selected.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "text": "发现",
+        "iconPath": "./images/tabbar2/explore.png",
+        "selectedIconPath": "./images/tabbar2/explore_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "./images/tabbar2/profile.png",
+        "selectedIconPath": "./images/tabbar2/profile_selected.png"
+      }
+    ]
+  }
 }
