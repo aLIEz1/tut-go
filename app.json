@@ -18,26 +18,26 @@
     "list": [{
       "pagePath": "pages/home/home",
       "text": "主页",
-      "iconPath": "./images/tabbar2/home.png",
-      "selectedIconPath": "./images/tabbar2/home_selected.png"
+      "iconPath": "./images/tabbar3/home.png",
+      "selectedIconPath": "./images/tabbar3/homefill.png"
     },
       {
         "pagePath": "pages/market/market",
         "text": "饰品市场",
-        "iconPath": "./images/tabbar2/market.png",
-        "selectedIconPath": "./images/tabbar2/market_selected.png"
+        "iconPath": "./images/tabbar3/cart.png",
+        "selectedIconPath": "./images/tabbar3/cartfill.png"
       },
       {
         "pagePath": "pages/explore/explore",
         "text": "发现",
-        "iconPath": "./images/tabbar2/explore.png",
-        "selectedIconPath": "./images/tabbar2/explore_selected.png"
+        "iconPath": "./images/tabbar3/light.png",
+        "selectedIconPath": "./images/tabbar3/lightfill.png"
       },
       {
         "pagePath": "pages/profile/profile",
         "text": "我的",
-        "iconPath": "./images/tabbar2/profile.png",
-        "selectedIconPath": "./images/tabbar2/profile_selected.png"
+        "iconPath": "./images/tabbar3/my.png",
+        "selectedIconPath": "./images/tabbar3/myfill.png"
       }
     ]
   }
