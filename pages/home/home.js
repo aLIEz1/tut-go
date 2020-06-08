@@ -8,6 +8,12 @@ Page({
             {url:'/images/goods/5.png'},
             {url:'/images/goods/6.png'}
         ],
+        imageURL:[
+            {url:'/images/goods/1.png'},
+            {url:'/images/goods/2.png'},
+            {url:'/images/goods/3.png'},
+            {url:'/images/goods/4.png'}
+        ]
     },
     onLoad() {
         this.setData({

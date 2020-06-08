@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "mp-searchbar": "../components/searchbar/searchbar"
+    "mp-searchbar": "../components/searchbar/searchbar",
+    "van-card": "../dist/card/index",
+    "van-image": "../dist/image/index",
+    "van-icon": "../dist/icon/index"
   },
   "navigationBarTitleText": "主页"
 }

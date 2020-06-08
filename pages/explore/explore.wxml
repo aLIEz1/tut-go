@@ -1,0 +1,28 @@
+<view class="page">
+    <swiper class="swiper"
+            indicator-dots="{{true}}"
+            indicator-color="lightgray"
+            indicator-active-color="white"
+            circular="{{true}}"
+            autoplay="{{true}}"
+            easing-function="easeInOutCubic">
+        <block wx:for="{{banners}}" wx:key="index">
+            <swiper-item bindtap="handleProductsItemTap">
+                <view class="swiper_item">
+                    <image src="{{item.url}}"/>
+                </view>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="news">
+        <block wx:for="{{news}}" wx:key="index">
+            <view class="card-box">
+                <van-card
+                        desc="{{item.detail}}"
+                        title="{{item.title}}"
+                        thumb="{{item.url}}"/>
+            </view>
+
+        </block>
+    </view>
+</view>
